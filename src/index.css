@@ -106,6 +106,7 @@ body{
 .contenedor header section p{
   color: var(--color-texto);
   font-size: 1.5em;
+  width: 100%;
 }
 .contenedor header section a{
   margin-top: 20px;
@@ -549,7 +550,7 @@ div.tarjetas{
   }
   .texto p{
     width: 100%;
-    font-size: .9em;
+    font-size: .8em;
     color: #ddf1f6;
   }
 }
