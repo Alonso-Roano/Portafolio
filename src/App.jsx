@@ -154,7 +154,7 @@ function App() {
               <h1>{textos.h1} </h1>
               <hr />
               <p>{menu}<b className='cursor'>|</b></p>
-              <button>{textos.proyectos} </button>
+              <a href='#proyectos' tabIndex="1">{textos.proyectos} </a>
             </div>
             <img src="/Imagenes/foto.webp" alt="foto de perfil" />
           </section>

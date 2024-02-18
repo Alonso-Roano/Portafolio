@@ -100,9 +100,13 @@ body{
   color: var(--color-texto);
   font-size: 1.5em;
 }
-.contenedor header section button{
+.contenedor header section a{
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
+  text-decoration: none;
   height: 40px;
   border-radius: 10px;
   border: none;
@@ -112,7 +116,7 @@ body{
   background: var(--color-titulo);
   cursor: pointer;
 }
-.contenedor header section button:active{
+.contenedor header section a:active{
   transform: scale(.9);
 }
 .contenedor header section img{
