@@ -92,7 +92,14 @@ body{
   color: var(--color-titulo);
   font-size: 3em;
 }
+.contenedor header section div{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
 .contenedor header section hr{
+  width: 100%;
   margin: 10px 0;
   border:3px solid var(--color-texto);
 }
@@ -405,6 +412,9 @@ div.tarjetas{
   }
 }
 @media only screen and (max-width: 1000px) {
+  .contenedor header section div{
+    justify-content: center;
+  }
   .Conocimientos div{
     width: 80%;
   }
@@ -524,6 +534,23 @@ div.tarjetas{
   }
   div.pantallas{
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  }
+}
+@media only screen and (max-width: 650px) {
+  .tecnologias img{
+    height: 40px;
+    position: relative;
+    z-index: 20;
+  }
+  .texto h4{
+    font-size: 1.6em;
+    color: #ddf1f6;
+    margin-bottom: 5px;
+  }
+  .texto p{
+    width: 100%;
+    font-size: .9em;
+    color: #ddf1f6;
   }
 }
 .ocultar{
