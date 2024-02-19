@@ -162,8 +162,7 @@ function App() {
         <section className='sobre' id='sobre'>
           <div>
             <h2>{textos.sobreMi}</h2>
-            <p>{textos.descripcionPersonal}
-              <br /><br />
+            <p>
               {textos.descripcion}
               <br />
               <br />
