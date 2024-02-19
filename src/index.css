@@ -396,7 +396,6 @@ div.tarjetas{
   color: var(--color-texto);
 }
 .tarjetas article div i:hover{
-  scale: 1.1;
   color: var(--color-titulo);
   transition:all .3s !important;
   cursor: pointer;
